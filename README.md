@@ -9,20 +9,20 @@ A Flutter project structured with **Clean Architecture**, using:
 
 ## 📂 Project Structure
 lib/
-├── core/                # Common utilities, error handling, constants
-├── data/                # Data layer (DTOs, repositories, API clients)
-│   ├── models/          # Data Transfer Objects (DTOs)
-│   ├── sources/         # Remote (Dio) and local data sources
-│   └── repositories/    # Repository implementations
-├── domain/              # Domain layer (entities, use cases, repository contracts)
-│   ├── entities/        # Business models
-│   ├── usecases/        # Application-specific business rules
-│   └── repositories/    # Abstract repository interfaces
-├── presentation/        # UI layer
-│   ├── blocs/           # Bloc/Cubit state management
-│   ├── pages/           # Screens
-│   └── widgets/         # Reusable UI components
-└── main.dart            # App entry point
+├── core/                
+├── data/                
+│   ├── models/          
+│   ├── sources/         
+│   └── repositories/    
+├── domain/              
+│   ├── entities/        
+│   ├── usecases/        
+│   └── repositories/    
+├── presentation/        
+│   ├── blocs/           
+│   ├── pages/           
+│   └── widgets/         
+└── main.dart            
 
 
 
